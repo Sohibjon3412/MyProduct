@@ -72,6 +72,7 @@ img {
 }
 .active .header__link{
   font-weight: bold;
+  color: red;
 }
 .btn {
   padding: 10px 22px;
