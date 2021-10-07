@@ -70,9 +70,8 @@ img {
 .header__link:hover {
   color: var(--hover-text);
 }
-.active .header__link{
+.active .header__link {
   font-weight: bold;
-  color: red;
 }
 .btn {
   padding: 10px 22px;
