@@ -10,11 +10,13 @@ html {
 :root {
   --text-color: #22343D;
   --white-text: #fff;
+  --site-logo: url("../media/img/site-logo.svg");
 }
 .add-color {
   --text-color: #fff;
   --white-text: #22343D;
   --hover-text: rgb(189, 176, 176);
+  --site-logo: url(../media/img/dark-logo.svg);
 }
 body {
   margin: 0;
@@ -43,9 +45,14 @@ img {
   margin-left: 0;
   
 }
-.header__logo {
-  width: 178px;
-  height: 37px;
+.header__logo::before {
+  content: "";
+  display: block;
+  background-image: var(--site-logo);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 170px;
+  height: 36px;
 }
 .header__logo-img {
   width: 178px;
@@ -102,7 +109,7 @@ img {
 .sign-link2 {
   background-color: #02897A;
   border-color: #02897A;
-  color: var(--white-text);
+  color: #fff;
 }
 
 .header__btn {
@@ -170,7 +177,7 @@ img {
 }
 .gs-link {
   text-decoration: none;
-  color: var(--white-text);
+  color: #fff;
   background-color: #02897A;
 }
 .gs-link:hover {
@@ -262,7 +269,7 @@ img {
 .product__button {
   background-color: #02897A;
   text-decoration: none;
-  
+  color: #fff;
 }
 .product__button:hover {
   background-color: #fff;
