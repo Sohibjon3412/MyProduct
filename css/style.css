@@ -54,10 +54,6 @@ img {
   width: 170px;
   height: 36px;
 }
-.header__logo-img {
-  width: 178px;
-  height: 37px;
-}
 .header__list {
   padding: 0;
   list-style: none;
@@ -122,7 +118,7 @@ img {
   border: none;
   font-size: 35px;
   background-color: transparent;
-  color: #22343D;
+  color: var(--text-color);
   border-radius: 50%;
 }
 /* START MAIN */
